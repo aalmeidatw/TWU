@@ -4,9 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by aalmeida on 2/17/16.
- */
+
 public class DrawLineTest {
 
 
