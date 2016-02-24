@@ -12,7 +12,7 @@ public class DrawRightTriangle {
     }
 
 
-    private void drawHorizontalLine( int numberOfAsterisk){
+    public void drawHorizontalLine( int numberOfAsterisk){
 
         for(int i = 0; i <= numberOfAsterisk; i++ ){
             System.out.print("*");
