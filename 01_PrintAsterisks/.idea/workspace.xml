@@ -22,26 +22,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DrawAsterisks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/controll/DrawAsterisks.java">
+      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/print/Printer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding />
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+              <folding>
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#143#144#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawAsterisksTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test/com/thoughtworks/controll/DrawAsterisksTest.java">
+      <file leaf-file-name="PrinterTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/com/thoughtworks/print/PrinterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.456">
-              <caret line="19" column="57" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.43448275">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/application/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,9 +78,10 @@
         <option value="$PROJECT_DIR$/src/com/thoughtworks/exePrint/Control/PrintAsterisks.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/exePrint/PrintAsterisks.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/print/Printer.java" />
-        <option value="$PROJECT_DIR$/Test/com/thoughtworks/print/PrinterTest.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/controll/DrawAsterisks.java" />
         <option value="$PROJECT_DIR$/Test/com/thoughtworks/controll/DrawAsterisksTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/application/main.java" />
+        <option value="$PROJECT_DIR$/Test/com/thoughtworks/print/PrinterTest.java" />
       </list>
     </option>
   </component>
@@ -81,9 +93,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="722" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -144,6 +155,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="thoughtworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="print" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,6 +228,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01_PrintAsterisks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01_PrintAsterisks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thoughtworks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -225,17 +262,18 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.thoughtworks.controll" />
       <recent name="com.thoughtworks.print" />
+      <recent name="com.thoughtworks.controll" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DrawAsterisksTest.shouldReturnStringWhenSendNmberOfAsterisks">
+  <component name="RunManager" selected="JUnit.PrinterTest.shouldPrinter1AsterisksInConsole">
     <configuration default="false" name="DrawAsterisksTest.shouldReturnStringWhenSendNmberOfAsterisks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -249,6 +287,32 @@
       <option name="PACKAGE_NAME" value="com.thoughtworks.controll" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.controll.DrawAsterisksTest" />
       <option name="METHOD_NAME" value="shouldReturnStringWhenSendNmberOfAsterisks" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PrinterTest.shouldPrinter1AsterisksInConsole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.print.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="01_PrintAsterisks" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.print" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.print.PrinterTest" />
+      <option name="METHOD_NAME" value="shouldPrinter1AsterisksInConsole" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -518,12 +582,14 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.DrawAsterisksTest.shouldReturnStringWhenSendNmberOfAsterisks" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PrinterTest.shouldPrinter1AsterisksInConsole" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DrawAsterisksTest.shouldReturnStringWhenSendNmberOfAsterisks" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PrinterTest.shouldPrinter1AsterisksInConsole" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DrawAsterisksTest.shouldReturnStringWhenSendNmberOfAsterisks" />
       </list>
     </recent_temporary>
   </component>
@@ -553,9 +619,15 @@
     <history-entry file="DrawAsterisksTest_shouldReturnStringWhenSendNmberOfAsterisks - 2016.02.24 at 15h 51m 45s.xml">
       <configuration name="DrawAsterisksTest.shouldReturnStringWhenSendNmberOfAsterisks" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrinterTest_shouldPrinter1AsterisksInConsole - 2016.02.24 at 16h 00m 30s.xml">
+      <configuration name="PrinterTest.shouldPrinter1AsterisksInConsole" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterTest_shouldPrinter1AsterisksInConsole - 2016.02.24 at 16h 00m 40s.xml">
+      <configuration name="PrinterTest.shouldPrinter1AsterisksInConsole" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="722" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -565,7 +637,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -602,21 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/print/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/controll/DrawAsterisks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/com/thoughtworks/controll/DrawAsterisksTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.456">
@@ -625,6 +682,43 @@
             <element signature="imports" expanded="true" />
             <element signature="e#427#428#0" expanded="true" />
             <element signature="e#490#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/controll/DrawAsterisks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.192">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/application/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/print/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/com/thoughtworks/print/PrinterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43448275">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

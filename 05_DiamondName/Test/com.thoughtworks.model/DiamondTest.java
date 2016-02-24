@@ -3,11 +3,8 @@ package com.thoughtworks.model;
 
 import org.junit.Before;
 import org.junit.Test;
-
-import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
-
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertEquals;
