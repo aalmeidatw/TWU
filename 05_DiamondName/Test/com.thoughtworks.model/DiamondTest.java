@@ -38,10 +38,20 @@ public class DiamondTest {
     public void shouldPrinter3AsterisksInConsole(){
 
         System.setOut(new PrintStream(outputStream));
-        String expected = "****";
+        String expected = "***";
 
         diamond.printAsterisks(3);
         assertEquals(outputStream.toString(), expected);
+    }
+
+    @Test
+    public void shoudPrint5SpacesInConsole(){
+        System.setOut(new PrintStream(outputStream));
+        String expected = "     ";
+
+        diamond.printSpaces(5);
+        assertEquals(outputStream.toString(), expected);
+
     }
 
 
