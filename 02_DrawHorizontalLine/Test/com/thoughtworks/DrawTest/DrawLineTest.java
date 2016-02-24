@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 
 
 public class DrawLineTest {
-    DrawLine drawLine;
+    private DrawLine drawLine;
 
     @Before
     public void setUp() throws Exception {
