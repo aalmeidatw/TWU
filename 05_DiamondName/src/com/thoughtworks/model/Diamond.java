@@ -27,7 +27,7 @@ public class Diamond {
 
 
 
-    public  int numberOfSpaces(int i, int numberOfLines){
+    public int numberOfSpaces(int i, int numberOfLines){
         return numberOfLines - i - 1;
     }
 

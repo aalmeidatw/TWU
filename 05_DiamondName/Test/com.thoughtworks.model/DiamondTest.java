@@ -21,5 +21,10 @@ public class DiamondTest {
         assertThat(diamond.findNumberOfAsterisk(2), is (5));
     }
 
+    @Test
+    public void shouldReturnNumberOfSpaces(){
+        assertThat(diamond.numberOfSpaces(1,10), is(8));
+    }
+
 
 }
