@@ -40,7 +40,7 @@
       <file leaf-file-name="DiamondTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/com.thoughtworks.model/DiamondTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7724138">
+            <state vertical-scroll-proportion="0.9032258">
               <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="49" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -82,8 +82,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -217,7 +218,6 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -671,7 +671,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="717" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -827,7 +827,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/com.thoughtworks.model/DiamondTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7724138">
+        <state vertical-scroll-proportion="0.9032258">
           <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="49" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
