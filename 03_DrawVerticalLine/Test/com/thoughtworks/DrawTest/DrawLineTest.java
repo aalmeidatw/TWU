@@ -1,4 +1,4 @@
-package com.thoughtworks;
+package com.thoughtworks.DrawTest;
 
 import com.thoughtworks.draw.DrawLine;
 import org.junit.Test;
