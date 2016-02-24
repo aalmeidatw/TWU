@@ -31,7 +31,7 @@ public class Diamond {
         return numberOfLines - i - 1;
     }
 
-    private int findNumberOfAsterisk(int i){
+    public int findNumberOfAsterisk(int i){
         return 2 * i + 1;
     }
 

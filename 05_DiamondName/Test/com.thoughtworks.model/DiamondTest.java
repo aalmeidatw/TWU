@@ -5,7 +5,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static sun.nio.cs.Surrogate.is;
+import static org.hamcrest.core.Is.is;
+
 
 public class DiamondTest {
     private Diamond diamond;
@@ -15,5 +16,10 @@ public class DiamondTest {
         this.diamond = new Diamond();
     }
 
-    
+    @Test
+    public void  shoudReturnNumberOfAsterisks(){
+        assertThat(diamond.findNumberOfAsterisk(2), is (5));
+    }
+
+
 }
